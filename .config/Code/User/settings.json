@@ -1,0 +1,30 @@
+{
+    "breadcrumbs.enabled": false,
+    "debug.inlineValues": true,
+    "editor.autoClosingBrackets": "never",
+    "editor.autoSurround": "never",
+    "editor.fontSize": 12,
+    "editor.formatOnPaste": true,
+    "editor.tabSize": 2,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "files.associations": {
+        "*.pipeline": "yaml"
+    },
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "javascript.format.insertSpaceAfterConstructor": true,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+    "keyboard.dispatch": "keyCode",
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.rendererType": "dom",
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    "typescriptHero.imports.organizeOnSave": true,
+    "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
+    "window.titleBarStyle": "custom",
+    "window.zoomLevel": 0,
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.autoClosingQuotes": "never"
+}
