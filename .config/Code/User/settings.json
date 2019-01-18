@@ -26,5 +26,6 @@
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "workbench.startupEditor": "newUntitledFile",
-    "editor.autoClosingQuotes": "never"
+    "editor.autoClosingQuotes": "never",
+    "git.autofetch": true
 }
