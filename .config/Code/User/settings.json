@@ -27,5 +27,7 @@
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "workbench.startupEditor": "newUntitledFile",
     "editor.autoClosingQuotes": "never",
-    "git.autofetch": true
+    "git.autofetch": true,
+    "terminal.external.linuxExec": "alacritty",
+    "terminal.integrated.shell.linux": "/bin/zsh"
 }
