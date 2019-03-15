@@ -98,5 +98,15 @@
         "key": "f5",
         "command": "-workbench.action.debug.start",
         "when": "!inDebugMode"
+    },
+    {
+        "key": "ctrl+shift+f",
+        "command": "workbench.action.terminal.focusFindWidget",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "-workbench.action.terminal.focusFindWidget",
+        "when": "terminalFocus"
     }
 ]

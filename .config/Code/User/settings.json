@@ -22,12 +22,14 @@
     "typescriptHero.imports.organizeOnSave": true,
     "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
     "window.titleBarStyle": "custom",
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 1,
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "workbench.startupEditor": "newUntitledFile",
     "editor.autoClosingQuotes": "never",
     "git.autofetch": true,
     "terminal.external.linuxExec": "alacritty",
-    "terminal.integrated.shell.linux": "/bin/zsh"
+    "terminal.integrated.shell.linux": "/bin/zsh",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
 }
