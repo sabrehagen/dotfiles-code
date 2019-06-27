@@ -32,5 +32,7 @@
     "terminal.integrated.shell.linux": "/bin/zsh",
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "editor.minimap.enabled": false
+    "editor.minimap.enabled": false,
+    "auto-close-tag.enableAutoCloseTag": false,
+    "auto-close-tag.enableAutoCloseSelfClosingTag": false
 }
