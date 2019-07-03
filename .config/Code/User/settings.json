@@ -35,6 +35,5 @@
     "editor.minimap.enabled": false,
     "auto-close-tag.enableAutoCloseTag": false,
     "auto-close-tag.enableAutoCloseSelfClosingTag": false,
-    "files.trimTrailingWhitespace": true,
-    "extensions.ignoreRecommendations": false
+    "files.trimTrailingWhitespace": true
 }
