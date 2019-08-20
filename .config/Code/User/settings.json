@@ -37,5 +37,8 @@
     "auto-close-tag.enableAutoCloseSelfClosingTag": false,
     "files.trimTrailingWhitespace": true,
     "extensions.ignoreRecommendations": true,
-    "workbench.activityBar.visible": false
+    "workbench.activityBar.visible": true,
+    "terminal.integrated.scrollback": 10000,
+    "editor.emptySelectionClipboard": false,
+    "editor.copyWithSyntaxHighlighting": false
 }
