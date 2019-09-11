@@ -153,5 +153,21 @@
         "key": "ctrl+shift+5",
         "command": "-workbench.action.terminal.split",
         "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+k l",
+        "command": "workbench.action.moveActiveEditorGroupRight"
+    },
+    {
+        "key": "ctrl+k right",
+        "command": "-workbench.action.moveActiveEditorGroupRight"
+    },
+    {
+        "key": "ctrl+k h",
+        "command": "workbench.action.moveActiveEditorGroupLeft"
+    },
+    {
+        "key": "ctrl+k left",
+        "command": "-workbench.action.moveActiveEditorGroupLeft"
     }
 ]
