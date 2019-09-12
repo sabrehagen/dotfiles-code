@@ -155,10 +155,6 @@
         "when": "terminalFocus"
     },
     {
-        "key": "ctrl+k l",
-        "command": "workbench.action.moveActiveEditorGroupRight"
-    },
-    {
         "key": "ctrl+k right",
         "command": "-workbench.action.moveActiveEditorGroupRight"
     },
@@ -169,5 +165,9 @@
     {
         "key": "ctrl+k left",
         "command": "-workbench.action.moveActiveEditorGroupLeft"
+    },
+    {
+        "key": "ctrl+k l",
+        "command": "workbench.action.moveEditorToRightGroup"
     }
 ]
