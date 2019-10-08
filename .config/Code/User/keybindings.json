@@ -193,5 +193,29 @@
     {
         "key": "ctrl+shift+tab",
         "command": "-workbench.action.openPreviousRecentlyUsedEditorInGroup"
+    },
+    {
+        "key": "ctrl+o",
+        "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "-workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+shift+o",
+        "command": "workbench.action.showCommands"
+    },
+    {
+        "key": "ctrl+shift+p",
+        "command": "-workbench.action.showCommands"
+    },
+    {
+        "key": "ctrl+shift+o",
+        "command": "-workbench.action.gotoSymbol"
+    },
+    {
+        "key": "ctrl+o",
+        "command": "-workbench.action.files.openFile"
     }
 ]
