@@ -228,5 +228,13 @@
         "key": "ctrl+shift+i",
         "command": "-workbench.action.toggleDevTools",
         "when": "isDevelopment"
+    },
+    {
+        "key": "alt+l",
+        "command": "workbench.action.focusNextGroup"
+    },
+    {
+        "key": "alt+h",
+        "command": "workbench.action.focusPreviousGroup"
     }
 ]
