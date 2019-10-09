@@ -191,15 +191,16 @@
         "command": "-workbench.action.openPreviousRecentlyUsedEditorInGroup"
     },
     {
-        "key": "ctrl+i",
-        "command": "workbench.action.quickOpen"
+        "key": "ctrl+p",
+        "command": "workbench.action.quickOpen",
+        "when": "editorTextFocus"
     },
     {
         "key": "ctrl+p",
         "command": "-workbench.action.quickOpen"
     },
     {
-        "key": "ctrl+shift+i",
+        "key": "ctrl+shift+p",
         "command": "workbench.action.showCommands"
     },
     {
@@ -240,5 +241,9 @@
     {
         "key": "ctrl+e",
         "command": "-workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+o",
+        "command": "workbench.action.files.openFile"
     }
 ]
