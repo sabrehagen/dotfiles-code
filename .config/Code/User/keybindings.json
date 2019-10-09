@@ -236,5 +236,9 @@
     {
         "key": "alt+h",
         "command": "workbench.action.focusPreviousGroup"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "-workbench.action.quickOpen"
     }
 ]
