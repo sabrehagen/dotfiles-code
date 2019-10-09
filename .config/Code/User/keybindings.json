@@ -67,10 +67,6 @@
         "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+shift+i",
-        "command": "workbench.view.debug"
-    },
-    {
         "key": "ctrl+shift+d",
         "command": "-workbench.view.debug"
     },
@@ -193,5 +189,68 @@
     {
         "key": "ctrl+shift+tab",
         "command": "-workbench.action.openPreviousRecentlyUsedEditorInGroup"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "workbench.action.quickOpen",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "-workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+shift+p",
+        "command": "workbench.action.showCommands"
+    },
+    {
+        "key": "ctrl+shift+p",
+        "command": "-workbench.action.showCommands"
+    },
+    {
+        "key": "ctrl+shift+o",
+        "command": "-workbench.action.gotoSymbol"
+    },
+    {
+        "key": "ctrl+o",
+        "command": "-workbench.action.files.openFile"
+    },
+    {
+        "key": "ctrl+shift+i",
+        "command": "-editor.action.formatDocument",
+        "when": "editorHasDocumentFormattingProvider && editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+i",
+        "command": "-editor.action.formatDocument.none",
+        "when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorHasDocumentFormattingProvider && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+i",
+        "command": "-workbench.action.toggleDevTools",
+        "when": "isDevelopment"
+    },
+    {
+        "key": "alt+l",
+        "command": "workbench.action.focusNextGroup",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+h",
+        "command": "workbench.action.focusPreviousGroup",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "-workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+o",
+        "command": "workbench.action.files.openFile"
+    },
+    {
+        "key": "alt+l",
+        "command": "-toggleFindInSelection",
+        "when": "editorFocus"
     }
 ]
