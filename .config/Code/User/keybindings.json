@@ -192,20 +192,16 @@
     },
     {
         "key": "ctrl+p",
-        "command": "workbench.action.quickOpen",
-        "when": "editorTextFocus"
+        "command": "-workbench.action.quickOpen"
     },
     {
         "key": "ctrl+p",
-        "command": "-workbench.action.quickOpen"
+        "command": "workbench.action.quickOpen",
+        "when": "!terminalFocus"
     },
     {
         "key": "ctrl+shift+p",
         "command": "workbench.action.showCommands"
-    },
-    {
-        "key": "ctrl+shift+p",
-        "command": "-workbench.action.showCommands"
     },
     {
         "key": "ctrl+shift+o",
