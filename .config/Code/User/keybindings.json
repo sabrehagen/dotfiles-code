@@ -231,6 +231,16 @@
         "when": "isDevelopment"
     },
     {
+        "key": "ctrl+i",
+        "command": "workbench.action.quickOpen",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+i",
+        "command": "workbench.action.showCommands",
+        "when": "terminalFocus"
+    },
+    {
         "key": "alt+l",
         "command": "workbench.action.focusNextGroup",
         "when": "editorTextFocus"
@@ -243,10 +253,6 @@
     {
         "key": "ctrl+e",
         "command": "-workbench.action.quickOpen"
-    },
-    {
-        "key": "ctrl+o",
-        "command": "workbench.action.files.openFile"
     },
     {
         "key": "alt+l",
