@@ -39,5 +39,6 @@
     "extensions.ignoreRecommendations": true,
     "workbench.activityBar.visible": false,
     "terminal.integrated.scrollback": 10000,
-    "editor.copyWithSyntaxHighlighting": false
+    "editor.copyWithSyntaxHighlighting": false,
+    "editor.lineNumbers": "off"
 }
