@@ -40,5 +40,8 @@
     "workbench.activityBar.visible": false,
     "terminal.integrated.scrollback": 10000,
     "editor.copyWithSyntaxHighlighting": false,
-    "editor.lineNumbers": "off"
+    "editor.lineNumbers": "off",
+    "editor.folding": false,
+    "editor.glyphMargin": false,
+    "scm.diffDecorationsGutterWidth": 2
 }
