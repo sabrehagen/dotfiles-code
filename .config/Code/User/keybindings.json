@@ -250,5 +250,14 @@
         "key": "alt+l",
         "command": "-toggleFindInSelection",
         "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+shift+j",
+        "command": "-workbench.action.search.toggleQueryDetails",
+        "when": "searchViewletVisible"
+    },
+    {
+        "key": "ctrl+shift+j",
+        "command": "workbench.action.toggleMaximizedPanel"
     }
 ]
