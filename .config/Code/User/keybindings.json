@@ -163,7 +163,7 @@
         "command": "-workbench.action.moveActiveEditorGroupLeft"
     },
     {
-        "key": "ctrl+k l",
+        "key": "shift+alt+l",
         "command": "workbench.action.moveEditorToRightGroup"
     },
     {
@@ -259,5 +259,32 @@
     {
         "key": "ctrl+shift+j",
         "command": "workbench.action.toggleMaximizedPanel"
+    },
+    {
+        "key": "shift+alt+h",
+        "command": "-editor.showCallHierarchy",
+        "when": "editorHasCallHierarchyProvider && editorTextFocus && !inReferenceSearchEditor"
+    },
+    {
+        "key": "ctrl+shift+pageup",
+        "command": "-workbench.action.moveEditorLeftInGroup"
+    },
+    {
+        "key": "shift+alt+h",
+        "command": "workbench.action.moveEditorToLeftGroup"
+    },
+    {
+        "key": "shift+f3",
+        "command": "search.action.focusNextSearchResult"
+    },
+    {
+        "key": "shift+f3",
+        "command": "-workbench.action.terminal.findPrevious",
+        "when": "terminalFindWidgetFocused"
+    },
+    {
+        "key": "shift+f3",
+        "command": "-editor.action.previousMatchFindAction",
+        "when": "editorFocus"
     }
 ]
