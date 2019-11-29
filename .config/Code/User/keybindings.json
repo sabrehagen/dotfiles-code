@@ -234,12 +234,12 @@
     },
     {
         "key": "alt+l",
-        "command": "workbench.action.focusRightGroup",
+        "command": "workbench.action.focusNextGroup",
         "when": "editorTextFocus"
     },
     {
         "key": "alt+h",
-        "command": "workbench.action.focusLeftGroup",
+        "command": "workbench.action.focusPreviousGroup",
         "when": "editorTextFocus"
     },
     {
@@ -327,64 +327,4 @@
         "key": "ctrl+shift+h",
         "command": "workbench.action.toggleMaximizedPanel"
     },
-    {
-        "key": "ctrl+shift+r",
-        "command": "workbench.action.openRecent",
-        "when": "terminalFocus"
-    },
-    {
-        "key": "f3",
-        "command": "-workbench.action.terminal.findNext",
-        "when": "terminalFocus"
-    },
-    {
-        "key": "f3",
-        "command": "-workbench.action.terminal.findNext",
-        "when": "terminalFindWidgetFocused"
-    },
-    {
-        "key": "shift+f3",
-        "command": "-workbench.action.terminal.findPrevious",
-        "when": "terminalFocus"
-    },
-    {
-        "key": "alt+k",
-        "command": "workbench.action.focusAboveGroup"
-    },
-    {
-        "key": "ctrl+k ctrl+up",
-        "command": "-workbench.action.focusAboveGroup"
-    },
-    {
-        "key": "alt+j",
-        "command": "workbench.action.focusBelowGroup"
-    },
-    {
-        "key": "ctrl+k ctrl+down",
-        "command": "-workbench.action.focusBelowGroup"
-    },
-    {
-        "key": "ctrl+j",
-        "command": "-workbench.action.togglePanel"
-    },
-    {
-        "key": "ctrl+j",
-        "command": "list.scrollDown",
-        "when": "listFocus && !inputFocus"
-    },
-    {
-        "key": "ctrl+down",
-        "command": "-list.scrollDown",
-        "when": "listFocus && !inputFocus"
-    },
-    {
-        "key": "ctrl+k",
-        "command": "list.scrollUp",
-        "when": "listFocus && !inputFocus"
-    },
-    {
-        "key": "ctrl+up",
-        "command": "-list.scrollUp",
-        "when": "listFocus && !inputFocus"
-    }
 ]
