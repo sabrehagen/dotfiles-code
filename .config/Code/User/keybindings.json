@@ -327,4 +327,8 @@
         "key": "ctrl+shift+h",
         "command": "workbench.action.toggleMaximizedPanel"
     },
+    {
+        "key": "ctrl+j",
+        "command": "-workbench.action.togglePanel"
+    },
 ]
