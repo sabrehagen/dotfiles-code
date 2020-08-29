@@ -331,4 +331,9 @@
         "key": "ctrl+j",
         "command": "-workbench.action.togglePanel"
     },
+    {
+        "key": "alt+q",
+        "command": "workbench.action.terminal.kill",
+        "when": "terminalFocus"
+    },
 ]
