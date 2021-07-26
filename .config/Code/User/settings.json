@@ -816,5 +816,7 @@
                 }
             ]
         }
-    }
+    },
+    "sync.forceDownload": true,
+    "security.workspace.trust.enabled": false
 }
