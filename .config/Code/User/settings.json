@@ -818,5 +818,6 @@
         }
     },
     "sync.forceDownload": true,
-    "security.workspace.trust.enabled": false
+    "security.workspace.trust.enabled": false,
+    "terminal.integrated.tabs.enabled": false
 }
