@@ -821,5 +821,5 @@
     "security.workspace.trust.banner": "never",
     "security.workspace.trust.startupPrompt": "never",
     "security.workspace.trust.untrustedFiles": "open",
-    "window.restoreWindows": "none"
+    "window.restoreWindows": "folders"
 }
