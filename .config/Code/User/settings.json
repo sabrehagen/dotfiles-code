@@ -820,5 +820,5 @@
     "sync.forceDownload": true,
     "security.workspace.trust.enabled": false,
     "terminal.integrated.tabs.enabled": false,
-    "window.restoreWindows": "folders"
+    "window.restoreWindows": "none"
 }
