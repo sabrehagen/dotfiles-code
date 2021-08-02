@@ -45,7 +45,7 @@
     "workbench.activityBar.visible": false,
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
-    "workbench.startupEditor": "newUntitledFile",
+    "workbench.startupEditor": "none",
     "workbench.colorCustomizations": {
         "[Wal]": {
             "focusBorder": "#D9C7A5",
@@ -817,7 +817,7 @@
             ]
         }
     },
-    "window.restoreWindows": "none",
+    "window.restoreWindows": "folders",
     "security.workspace.trust.banner": "never",
     "security.workspace.trust.enabled": false,
     "security.workspace.trust.startupPrompt": "never",
