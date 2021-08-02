@@ -819,5 +819,6 @@
     },
     "sync.forceDownload": true,
     "security.workspace.trust.enabled": false,
-    "terminal.integrated.tabs.enabled": false
+    "terminal.integrated.tabs.enabled": false,
+    "window.restoreWindows": "none"
 }
