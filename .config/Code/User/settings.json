@@ -817,7 +817,6 @@
             ]
         }
     },
-    "window.restoreWindows": "folders",
     "security.workspace.trust.banner": "never",
     "security.workspace.trust.enabled": false,
     "security.workspace.trust.startupPrompt": "never",
