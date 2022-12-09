@@ -24,6 +24,8 @@
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
     "git.autofetch": true,
+    "gitlens.codeLens.authors.enabled": false,
+    "gitlens.codeLens.recentChange.enabled": false,
     "javascript.format.insertSpaceAfterConstructor": true,
     "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
     "keyboard.dispatch": "keyCode",
@@ -37,7 +39,6 @@
     "terminal.integrated.rendererType": "dom",
     "terminal.integrated.scrollback": 10000,
     "terminal.integrated.shell.linux": "/bin/zsh",
-    "editor.find
     "typescript.updateImportsOnFileMove.enabled": "never",
     "window.menuBarVisibility": "hidden",
     "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
