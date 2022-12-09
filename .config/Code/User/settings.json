@@ -37,6 +37,7 @@
     "terminal.integrated.rendererType": "dom",
     "terminal.integrated.scrollback": 10000,
     "terminal.integrated.shell.linux": "/bin/zsh",
+    "editor.find
     "typescript.updateImportsOnFileMove.enabled": "never",
     "window.menuBarVisibility": "hidden",
     "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
@@ -236,7 +237,7 @@
     },
     "wal.tokenColorTheme": "Wal",
     "explorer.compactFolders": false,
-    "workbench.colorTheme": "Wal",
+    "workbench.colorTheme": "Default Light+",
     "sync.forceUpload": true,
     "terminal.integrated.tabs.enabled": false,
     "security.workspace.trust.banner": "never",
