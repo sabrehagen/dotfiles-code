@@ -163,7 +163,7 @@
         "command": "-workbench.action.moveActiveEditorGroupLeft"
     },
     {
-        "key": "shift+alt+l",
+        "key": "shift+alt+k",
         "command": "workbench.action.moveEditorToRightGroup"
     },
     {
@@ -266,7 +266,7 @@
         "command": "-workbench.action.moveEditorLeftInGroup"
     },
     {
-        "key": "shift+alt+h",
+        "key": "shift+alt+j",
         "command": "workbench.action.moveEditorToLeftGroup"
     },
     {
@@ -350,5 +350,48 @@
         "key": "ctrl+f",
         "command": "-workbench.action.terminal.focusFind",
         "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "ctrl+shift+r",
+        "command": "workbench.action.reloadWindow"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "-workbench.action.reloadWindow",
+        "when": "isDevelopment"
+    },
+    {
+        "key": "shift+alt+h",
+        "command": "workbench.action.decreaseViewWidth",
+        "when": "editorFocus"
+    },
+    {
+        "key": "shift+alt+l",
+        "command": "workbench.action.increaseViewWidth",
+        "when": "editorFocus"
+    },
+    {
+        "key": "shift+alt+l",
+        "command": "workbench.action.increaseViewSize",
+        "when": "focusedView ~= /workbench.explorer.*/"
+    },
+    {
+        "key": "shift+alt+h",
+        "command": "workbench.action.decreaseViewSize",
+        "when": "focusedView ~= /workbench.explorer.*/"
+    },
+    {
+        "key": "shift+alt+h",
+        "command": "workbench.action.terminal.resizePaneLeft",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "shift+alt+l",
+        "command": "workbench.action.terminal.resizePaneRight",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+q",
+        "command": "workbench.action.closeActiveEditor"
     },
 ]
