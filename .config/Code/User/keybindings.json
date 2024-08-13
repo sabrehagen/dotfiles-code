@@ -163,7 +163,7 @@
         "command": "-workbench.action.moveActiveEditorGroupLeft"
     },
     {
-        "key": "shift+alt+k",
+        "key": "shift+alt+j",
         "command": "workbench.action.moveEditorToRightGroup"
     },
     {
@@ -266,7 +266,7 @@
         "command": "-workbench.action.moveEditorLeftInGroup"
     },
     {
-        "key": "shift+alt+j",
+        "key": "shift+alt+k",
         "command": "workbench.action.moveEditorToLeftGroup"
     },
     {
@@ -421,5 +421,10 @@
     {
         "key": "ctrl+shift+tab",
         "command": "workbench.action.previousEditor"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "-workbench.action.terminal.focusFind",
+        "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocusInAny && terminalHasBeenCreated || terminalFocusInAny && terminalProcessSupported"
     },
 ]
