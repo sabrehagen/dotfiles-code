@@ -171,16 +171,8 @@
         "command": "-workbench.action.openNextRecentlyUsedEditorInGroup"
     },
     {
-        "key": "ctrl+alt+l",
-        "command": "workbench.action.nextEditor"
-    },
-    {
         "key": "ctrl+pagedown",
         "command": "-workbench.action.nextEditor"
-    },
-    {
-        "key": "ctrl+alt+h",
-        "command": "workbench.action.previousEditor"
     },
     {
         "key": "ctrl+pageup",
@@ -426,5 +418,45 @@
         "key": "ctrl+f",
         "command": "-workbench.action.terminal.focusFind",
         "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocusInAny && terminalHasBeenCreated || terminalFocusInAny && terminalProcessSupported"
+    },
+    {
+        "key": "ctrl+shift+alt+j",
+        "command": "cursorDown",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+k",
+        "command": "cursorUp",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+alt+h",
+        "command": "workbench.action.previousEditorInGroup"
+    },
+    {
+        "key": "ctrl+k ctrl+pageup",
+        "command": "-workbench.action.previousEditorInGroup"
+    },
+    {
+        "key": "ctrl+alt+l",
+        "command": "workbench.action.nextEditorInGroup"
+    },
+    {
+        "key": "ctrl+k ctrl+pagedown",
+        "command": "-workbench.action.nextEditorInGroup"
+    },
+    {
+        "key": "ctrl+alt+p",
+        "command": "editor.action.peekTypeDefinition"
+    },
+    {
+        "key": "ctrl+shift+alt+h",
+        "command": "cursorLeft",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+l",
+        "command": "cursorRight",
+        "when": "textInputFocus"
     },
 ]
